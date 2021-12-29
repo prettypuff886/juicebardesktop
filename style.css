@@ -162,7 +162,7 @@ font-weight: 200;
 
 .green-sec img{
     margin: auto;
-width: 75%;
+
 padding: 5% 0;
 }
 
@@ -206,7 +206,6 @@ font-weight: 100;
 
 .sect-4 *{
     padding-bottom: 3%;
-    l
 }
 
 .c-one{
@@ -365,9 +364,21 @@ form{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*desktop classes*/
-
-
 
 @media screen and (min-width: 992px) {
     div.order-header {
@@ -543,14 +554,22 @@ form{
         
     }
 
+
     .sect-3-1,.sect-3-,.sect-3-3{
         padding: 0 5rem;
     }
 
+    .img-2-3{
+        height: 320px;
+    }
+    
+
     .green-sec img{
-        width: 500px;
+        width: 500px ;
+          
     }
 
+   
     /*section-4-lg*/
 
     .sect-4-row{
@@ -680,7 +699,23 @@ form{
 .white-section{
     display: none;
 }
+
+.img-list img {
+    position: inherit;
 }
+
+.img-list{
+    padding-left: 8rem;
+}
+
+.w3-round{
+    height: 377px;
+    width: 280px;
+}
+  }
+
+
+  
 
 
 /*desktop navbar*/
